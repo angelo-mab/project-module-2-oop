@@ -5,8 +5,8 @@
 
 // The GAME_WIDTH and GAME_HEIGHT constants denote the size
 // of the game area in pixels and is used in engine-utilities.js.
-const GAME_WIDTH = 375;
-const GAME_HEIGHT = 500;
+const GAME_WIDTH = 900;
+const GAME_HEIGHT = 600;
 
 // These constants represent the width and height of an enemy in pixels
 // as well as the maximum number of enemies on screen at any given time.
@@ -18,4 +18,24 @@ const MAX_ENEMIES = 3;
 const PLAYER_WIDTH = 75;
 const PLAYER_HEIGHT = 54;
 
+//new variables
+let gameState;
 
+//stores the id="gameOverScreen"
+let gameOverMenu;
+let restartButton;
+
+//start button
+let gameStartMenu;
+let startButton;
+
+let score;
+let scoreText;
+let highscore;
+let highscoreText
+
+
+//sound effects
+// beep for spawning enemies
+// bump for starting game
+// die for dying

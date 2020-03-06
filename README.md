@@ -1,6 +1,6 @@
 # Object Oriented Programming Game Project
 
-<p align="center"><img src="./images/screenshot.png"></p>
+<p align-content="center"><img src="./images/screenshot.png"></p>
 
 ## Introduction
 

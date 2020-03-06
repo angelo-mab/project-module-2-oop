@@ -1,0 +1,36 @@
+body {
+  font-family: "Permanent Marker", cursive;
+  color: white;
+}
+#gameStartScreen {
+  position: absolute;
+  visibility: visible;
+}
+
+.welcome {
+  font-size: 65px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#startBtn:hover {
+  cursor: pointer;
+}
+#gameOverScreen {
+  position: absolute;
+  visibility: hidden;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+.gameOver {
+  font-size: 65px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#restartBtn:hover {
+  cursor: pointer;
+}

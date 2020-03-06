@@ -1,14 +1,33 @@
 <html>
-<head>    
-    <title>Nyan Kat</title> 
-</head> 
-<body>    
-    <div id="app"></div> 
-    <script src="js/data.js"></script> 
-    <script src="js/Enemy.js"></script> 
-    <script src="js/engine-utilities.js"></script> 
-    <script src="js/Engine.js"></script> 
-    <script src="js/Player.js"></script> 
-    <script src="js/main.js"></script> 
-</body> 
-</html> 
+  <head>
+    <title>totally not mario</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <section id="gameStartScreen">
+      <h1 class="welcome">Welcome!</h1>
+      <h3 id="startBtn">Start?</h3>
+    </section>
+    <section id="gameOverScreen">
+      <h2 class="gameOver">GAME OVER!</h2>
+      <h3 id="restartBtn">Restart?</h3>
+    </section>
+
+    <div id="app"></div>
+    <script src="js/data.js"></script>
+    <script src="js/Enemy.js"></script>
+    <script src="js/engine-utilities.js"></script>
+    <script src="js/Engine.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/Text.js"></script>
+    <audio play src="/music/Die.wav" id="dieFx"></audio>
+    <audio play src="/music/Beep.wav" id="spawnFx"></audio>
+    <audio play src="/music/Bump.wav" id="startFx"></audio>
+    <audio play src="/music/1 - Running About.mp3" id="bgm"></audio>
+  </body>
+</html>
